@@ -1,0 +1,31 @@
+/* app css stylesheet */
+
+/**********************/
+/* Menu and Footer    */
+/**********************/
+html, body {
+    height: 100%;
+}
+#wrap {
+    background-color: #333;
+    color: #aaa;
+    height: auto;
+    margin: 0 auto -60px;
+    min-height: 100%;
+    padding: 0 0 60px;
+}
+footer {
+    background-color: #333;
+    color: #aaa;
+    height: 60px;
+}
+#wrap > .container {
+    padding: 200px 15px 50px;
+}
+footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer > .container > .text-muted {
+    margin: 20px 0;
+}
